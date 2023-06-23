@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { Children, useEffect, useState } from "react";
 import { logo, menu, close } from "../assets";
 import { styles } from "../Style";
 import { Link, NavLink } from "react-router-dom";
 import { navLinks } from "../Constants";
+
+import "/Users/vishweshshah/Documents/React/My-Portfolio/src/components/canvas/Computers.jsx";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState("");
@@ -17,6 +19,13 @@ const Navbar = () => {
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0); //Will scroll to the top of the page
+            Children: [
+              {
+                loader: () => {
+                  <Computers />;
+                },
+              },
+            ];
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
