@@ -12,10 +12,12 @@
   "dependencies": {
     "@react-three/drei": "^9.77.3",
     "@react-three/fiber": "^8.13.3",
-    "framer-motion": "^10.12.16",
+    "framer-motion": "^10.12.17",
     "gsap": "^3.12.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.149",
+    "react-tilt": "^1.0.2",
     "three": "^0.153.0"
   },
   "devDependencies": {

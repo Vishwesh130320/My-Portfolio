@@ -19,13 +19,6 @@ const Navbar = () => {
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0); //Will scroll to the top of the page
-            Children: [
-              {
-                loader: () => {
-                  <Computers />;
-                },
-              },
-            ];
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />

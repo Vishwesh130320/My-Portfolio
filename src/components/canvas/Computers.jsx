@@ -6,7 +6,6 @@ import {
   Preload,
   ScrollControls,
   useGLTF,
-  useScroll,
 } from "@react-three/drei";
 const Computers = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
@@ -24,7 +23,7 @@ const Computers = () => {
       />
       <primitive
         object={computer.scene}
-        scale={0.5}
+        scale={0.7}
         position={[0, -3.75, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
@@ -32,10 +31,10 @@ const Computers = () => {
   );
 };
 
-const ComputerCanvas = () => {
+const ComputerCanvas = (props) => {
   return (
     <Canvas
-      frameLoop='demand'
+      frameloop='demand'
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
@@ -44,11 +43,12 @@ const ComputerCanvas = () => {
       <Suspense>
         <OrbitControls
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2.1}
-          minPolarAngle={Math.PI / 2.1}
-          PointConstraint={true}
+          maxPolarAngle={Math.PI / 2}
+          minPolarAngle={Math.PI / 2}
+          PointConstraint
         />
         <Computers />
+        const scroll= useScroll();
       </Suspense>
       <Preload all />
     </Canvas>
