@@ -205,18 +205,11 @@ const projects = [
     description:
       "A secure web portal for an airport, providing access to airlines employees, airport employees, and general users based on their roles and permissions. The portal includes real-time flight information retrieval and management features for airlines employees and gate operations oversight for airport employees.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "ReactJs", color: "blue-text-gradient" },
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "Express", color: "pink-text-gradient" },
+      { name: "MongoDB", color: "blue-text-gradient" },
+      { name: "AWS", color: "green-text-gradient" },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
