@@ -15,14 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  AnjaliCreations,
+  stackOverFlow,
+  munchmonkey,
   tripguide,
   threejs,
+  volansys,
 } from "../src/assets";
 
 export const navLinks = [
@@ -116,128 +114,91 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Intern",
+    company_name: "VOLANSYS",
+    icon: volansys,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2021 – October 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built various prototype versions of Online marketplace web-app in different database settings using MERN stack.",
+      "Designed a simplified yet an elegant UI interface for prototypes by utilizing Material UI and Bootstrap components.",
+      "Enhanced fault-tolerance and scalability of application using messages and stream processing from topics in Kafka.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Anjali Creation",
+    icon: AnjaliCreations,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2021 – June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided solution for managing the textile weaving industry (Material Management Software) using React, JavaScript,Spring Boot and PostgreSQL.",
+      "Helpful to keep a record of weaved goods, to sell goods, and generate bills or delivery tickets automatically.",
+      "Solved critical issues such as Optimizing back-end for faster responses and various point of sales.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "StackOverflow Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application  where programmers and developers can ask questions, share knowledge, and find solutions to coding and software development problems.",
+
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "ReactJs", color: "blue-text-gradient" },
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "Redis", color: "pink-text-gradient" },
+      { name: "Kafka", color: "blue-text-gradient" },
+      { name: "AWS", color: "green-text-gradient" },
+      { name: "MySQL", color: "pink-text-gradient" },
+      { name: "MongoDB", color: "blue-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: stackOverFlow,
+    source_code_link: "https://github.com/Vishwesh130320/StackOverflow",
   },
   {
-    name: "Job IT",
+    name: "Munch Monkey",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application  where programmers and developers can ask questions, share knowledge, and find solutions to coding and software development problems.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "ReactJs", color: "blue-text-gradient" },
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "Express", color: "pink-text-gradient" },
+      { name: "Redux", color: "green-text-gradient" },
+      { name: "Kafka", color: "blue-text-gradient" },
+      { name: "AWS", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: munchmonkey,
+    source_code_link: "https://github.com/Vishwesh130320/MunchMonkey",
   },
   {
     name: "Trip Guide",
@@ -262,4 +223,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
