@@ -5,8 +5,7 @@ import { slideIn } from "../Utils/Motion";
 import { styles } from "../Style";
 import { EarthCanvas } from "./canvas";
 import { StarWrapper } from "../Hoc";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faTwitter } from "@fortawesome/free-solid-svg-icons";
+
 //service_gbf5p89
 //template_j4b458m
 //FvAwZ6V5IwsWf_MUB
@@ -124,13 +123,6 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-
-          {/* <div>
-            <FontAwesomeIcon
-              icon='fa-brands faTwitter'
-              style={{ color: "#2a3e51" }}
-            />
-          </div> */}
         </form>
       </motion.div>
 

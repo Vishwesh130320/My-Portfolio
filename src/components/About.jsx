@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
+import React, { Fragment } from "react";
 import Tilt from "react-parallax-tilt";
 import { styles } from "../Style";
+import { services } from "../Constants";
 import { fadeIn, textVariant } from "../Utils/Motion";
 import { StarWrapper } from "../Hoc";
-import { services } from "../Constants";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
