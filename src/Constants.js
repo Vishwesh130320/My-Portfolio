@@ -224,4 +224,3 @@ const projects = [
 ];
 //Changes
 export { services, technologies, experiences, projects };
-b0ab10c;
