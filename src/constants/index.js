@@ -169,8 +169,7 @@ const experiences = [
 const projects = [
   {
     name: "StackOverflow Clone",
-    description:
-      "Web application  where programmers and developers can ask questions, share knowledge, and find solutions to coding and software development problems.",
+    description: "",
 
     tags: [
       { name: "ReactJs", color: "blue-text-gradient" },
@@ -186,8 +185,7 @@ const projects = [
   },
   {
     name: "Munch Monkey",
-    description:
-      "Web application  where programmers and developers can ask questions, share knowledge, and find solutions to coding and software development problems.",
+    description: "",
     tags: [
       { name: "ReactJs", color: "blue-text-gradient" },
       { name: "NodeJs", color: "green-text-gradient" },
