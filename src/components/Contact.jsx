@@ -1,11 +1,14 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
-import { StarWrapper } from "../hoc";
 import { slideIn } from "../Utils/Motion";
 import { styles } from "../Style";
 import { EarthCanvas } from "./canvas";
+import { StarWrapper } from "../Hoc";
+
+//service_gbf5p89
+//template_j4b458m
+//FvAwZ6V5IwsWf_MUB
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,8 +36,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_gbf5p89",
+        "template_j4b458m",
         {
           from_name: form.name,
           to_name: "Vishwesh",
@@ -42,7 +45,7 @@ const Contact = () => {
           to_email: "vishweshshah999@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "FvAwZ6V5IwsWf_MUB"
       )
       .then(
         () => {

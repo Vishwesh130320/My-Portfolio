@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { github } from "../assets";
-import { StarWrapper } from "../hoc";
 import { Tilt } from "react-tilt";
 import { styles } from "../Style";
 import { projects } from "../Constants";
 import { fadeIn, textVariant } from "../Utils/Motion";
+import { StarWrapper } from "../Hoc";
 
 const ProjectCard = ({
   index,
