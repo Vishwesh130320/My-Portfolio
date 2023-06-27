@@ -184,26 +184,26 @@ const projects = [
     image: stackOverFlow,
     source_code_link: "https://github.com/Vishwesh130320/StackOverflow",
   },
-  // {
-  //   name: "Munch Monkey",
-  //   description:
-  //     "Web application  where programmers and developers can ask questions, share knowledge, and find solutions to coding and software development problems.",
-  //   tags: [
-  //     { name: "ReactJs", color: "blue-text-gradient" },
-  //     { name: "NodeJs", color: "green-text-gradient" },
-  //     { name: "Express", color: "pink-text-gradient" },
-  //     { name: "Redux", color: "green-text-gradient" },
-  //     { name: "Kafka", color: "blue-text-gradient" },
-  //     { name: "AWS", color: "green-text-gradient" },
-  //     { name: "MongoDB", color: "pink-text-gradient" },
-  //   ],
-  //   image: munchmonkey,
-  //   source_code_link: "https://github.com/Vishwesh130320/MunchMonkey",
-  // },
   {
-    name: "Trip Guide",
+    name: "Munch Monkey",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "It is an Uber Eats clone which is a popular food delivery platform that connects users with a wide range of restaurants, allowing them to order food and have it delivered conveniently to their doorstep.",
+    tags: [
+      { name: "ReactJs", color: "blue-text-gradient" },
+      { name: "NodeJs", color: "green-text-gradient" },
+      { name: "Express", color: "pink-text-gradient" },
+      { name: "Redux", color: "green-text-gradient" },
+      { name: "Kafka", color: "blue-text-gradient" },
+      { name: "AWS", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
+    ],
+    image: munchmonkey,
+    source_code_link: "https://github.com/Vishwesh130320/MunchMonkey",
+  },
+  {
+    name: "Airport Management System",
+    description:
+      "A secure web portal for an airport, providing access to airlines employees, airport employees, and general users based on their roles and permissions. The portal includes real-time flight information retrieval and management features for airlines employees and gate operations oversight for airport employees.",
     tags: [
       {
         name: "nextjs",
