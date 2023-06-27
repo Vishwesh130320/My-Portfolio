@@ -187,7 +187,7 @@ const projects = [
   {
     name: "Munch Monkey",
     description:
-      " It is an Uber Eats clone which is a popular food delivery platform that connects users with a wide range of restaurants, allowing them to order food and have it delivered conveniently to their doorstep.",
+      "Web application  where programmers and developers can ask questions, share knowledge, and find solutions to coding and software development problems.",
     tags: [
       { name: "ReactJs", color: "blue-text-gradient" },
       { name: "NodeJs", color: "green-text-gradient" },
@@ -201,7 +201,7 @@ const projects = [
     source_code_link: "https://github.com/Vishwesh130320/MunchMonkey",
   },
   {
-    name: "Airport Management System",
+    name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -222,5 +222,5 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
-
+//Changes
 export { services, technologies, experiences, projects };
