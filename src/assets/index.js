@@ -25,7 +25,7 @@ import AnjaliCreations from "./company/AnjaliCreations.png";
 
 import stackOverFlow from "./stackOverFlow.png";
 import munchmonkey from "./munchmonkey.png";
-import tripguide from "./tripguide.png";
+import Airport from "./Airport.png";
 
 export {
   logo,
@@ -53,5 +53,5 @@ export {
   AnjaliCreations,
   stackOverFlow,
   munchmonkey,
-  tripguide,
+  Airport,
 };

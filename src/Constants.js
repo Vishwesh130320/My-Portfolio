@@ -18,7 +18,7 @@ import {
   AnjaliCreations,
   stackOverFlow,
   munchmonkey,
-  tripguide,
+  Airport,
   threejs,
   volansys,
 } from "../src/assets";
@@ -211,8 +211,8 @@ const projects = [
       { name: "MongoDB", color: "blue-text-gradient" },
       { name: "AWS", color: "green-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Airport,
+    source_code_link: "https://github.com/gopinathsjsu/team-project-team-16",
   },
 ];
 
