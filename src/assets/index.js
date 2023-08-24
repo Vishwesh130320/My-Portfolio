@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import volansys from "./company/volansys.png";
 import AnjaliCreations from "./company/AnjaliCreations.png";
+import acldigital from "./company/acldigital.png";
 
 import stackOverFlow from "./stackOverFlow.png";
 import munchmonkey from "./munchmonkey.png";
@@ -54,4 +55,5 @@ export {
   stackOverFlow,
   munchmonkey,
   Airport,
+  acldigital,
 };

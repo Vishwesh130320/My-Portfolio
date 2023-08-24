@@ -21,6 +21,7 @@ import {
   Airport,
   threejs,
   volansys,
+  acldigital,
 } from "../src/assets";
 
 export const navLinks = [
@@ -113,6 +114,20 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineer Intern",
+    company_name: "ACL Digital",
+    icon: acldigital,
+    iconBg: "#383E56",
+    date: "June 2023 – August 2023",
+    points: [
+      "Developed a cross-platform (ios & Android) Flutter app, achieving 30% efficiency improvement in appointment management, featuring an intuitive UI for users to schedule, modify, and track appointments seamlessly.",
+      "Engineered Node.js backend with MongoDB, ensuring 40% faster scheduling and 50% enhanced authentication.",
+      "Devised algorithm using Cron Jobs for 95% reduction in missed appointment notifications.",
+      "Seamlessly integrated Google and Apple calendar APIs, enabling 100% automated appointment synchronization.",
+    ],
+  },
+
   {
     title: "Software Engineer Intern",
     company_name: "VOLANSYS",
